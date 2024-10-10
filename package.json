@@ -1,12 +1,13 @@
 {
   "name": "cwrap-framework",
-  "version": "0.1.0-alpha.20241013",
+  "version": "0.1.0-alpha.20241014",
   "description": "CWrap is an open microframework for web developers and those learning web development.",
   "main": "scripts/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start http://localhost:36969 && cross-env DEV=1 node server.js",
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node scripts/postinstall.js",
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "Karol Piecuch <villager88pl@gmail.com>",

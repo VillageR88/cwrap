@@ -38,6 +38,7 @@ rl.question("Enter project name (default: my-new-cwrap-project): ", (input) => {
 		main: "index.js",
 		scripts: {
 			start: "start http://localhost:36969 && node server.js",
+			build: "node build.js",
 		},
 		devDependencies: {
 			"cwrap-framework": cwrapFrameworkVersion,
