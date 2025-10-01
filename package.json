@@ -26,7 +26,7 @@
     "cross-env": "^10.0.0",
     "express": "^5.1.0",
     "fs-extra": "^11.2.0",
-    "jsdom": "^26.0.0",
+    "jsdom": "^27.0.0",
     "livereload": "^0.10.3",
     "mkdirp": "^3.0.1",
     "serve-static": "^2.2.0",
